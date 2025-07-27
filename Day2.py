@@ -62,7 +62,33 @@ city_areas = dict(zip(cities, areas))
 print(city_areas)
 
 print(tuple(zip(cities, areas)))
+print('------------------------------------------------')
+dict = {}
+dict['Key1'] = 'value1'
+dict['Key2'] = 'value2'
+dict['Key3'] = 'value3'
+print(dict)
 
+
+
+print ('---------------------Set---------------------')
+
+x= [90, 80, 70, 60, 50, 40 , 90, 80, 50, 40, 30, 20, 10]
+print(x)
+print(set(x))
+
+s = {1, 2, 3, 4, 5}
+
+print(s.remove(2))
+print(s)
+s.pop()
+
+
+print('---------------------Frozen Set---------------------')
+f = frozenset()
+print(f)
+f = {10, 20, 30, 40, 50, 10}
+print(f)
 
 
 
