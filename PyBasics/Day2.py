@@ -90,6 +90,15 @@ print(f)
 f = {10, 20, 30, 40, 50, 10}
 print(f)
 
+#Simple calculator
+print("here I am")
+age = 21
+if age >= 18:
+    print("You are an adult.")
+elif age < 13:
+    print("You are a teenager.")
+else:
+    print("You are a child.")
 
 
 

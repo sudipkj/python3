@@ -1,3 +1,5 @@
+from traceback import print_tb
+
 x=5
 y=3
 print(x+y)
@@ -113,6 +115,19 @@ deep_copied_list[2][1] = 'changed'
 print("Original List:", original_list)
 print("Shallow Copied List:", shallow_copied_list)
 print("Deep Copied List:", deep_copied_list)
+
+
+#floor division example
+x = 5
+print(x//2)
+print(x/2)
+print(x % 2)
+
+print(x**2)
+
+str1 = "Sudip"
+str2 = "Sudip"
+print(str1 == str2)  # True, because the content is the same
 
 
 

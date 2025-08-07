@@ -26,6 +26,7 @@ for index, degree in enumerate(degrees):
 
         y = true_function(x) + np.random.normal(0, noise_std, size=n_sample)   # y = true_function(x) + noise for each data point
 
+        #y = mx + c
         # print('x-> y', x, y)
         # plt.plot(x, y, 'ro', label='Data Points')
         # plt.show()
