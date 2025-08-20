@@ -109,8 +109,19 @@ if num%2 == 0:
 else:    print("Odd")
 
 
+## For loop example
+for i in range(5):
+    print(i)
+
+print("-----------")
+for i in range(1, 10, 2):
+    print(i)
 
 
+count = 0
+while count < 5:
+    print("Count is:", count)
+    count += 1
 
 
 
